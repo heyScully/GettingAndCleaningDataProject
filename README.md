@@ -16,9 +16,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ## Assumptions
 
 This analysis assumes three things:
-1. The user has the dplyr library installed. If not, he/she must first run install.packages("dplyr").
-2. The the working directory contains a folder "UCI HAR Dataset" which then contains subfolders for "train" and "test" raw data.
-3. Step #2 from the assignment is assumed to *EXCLUDE* "meanFreq" variables, which represents the mean of a derived measurement rather than the mean of a raw data measurement.
+
+* The user has the dplyr library installed. If not, he/she must first run install.packages("dplyr").
+* The the working directory contains a folder "UCI HAR Dataset" which then contains subfolders for "train" and "test" raw data.
+* Step #2 from the assignment is assumed to *EXCLUDE* "meanFreq" variables, which represents the mean of a derived measurement rather than the mean of a raw data measurement.
 
 ## The Script
 
